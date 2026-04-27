@@ -1,0 +1,518 @@
+.startApplingHeader {
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    background-image: url("../../assests/startapply_bg_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.startApplingHeaderTextContainer {
+    margin-top: 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.startApplingHeaderText {
+    padding-top: 20px;
+    line-height: 100%;
+    text-align: start;
+    color: white;
+    font-size: 60px;
+}
+
+.startApplingHeaderImageContainer {
+    margin-top: 20px;
+    width: 38%;
+    position: relative;
+
+}
+
+.startApplingHeaderImage {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    /* bottom: -10px; */
+    right: 30px;
+}
+
+
+.inputContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 85%;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 5px;
+
+}
+
+.inputFieldContainer {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+
+}
+
+.inputFieldSignUpContainer {
+    width: 80%;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+
+}
+
+.inputMainContainerChild {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpButton {
+    width: 15%;
+    height: 46px;
+    border: none;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.buttonMainContainer {
+    background: linear-gradient(180deg, #D5BB54 0%, #837230 100%);
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.buttonMainContainer:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 1px 44px -12px #00000094;
+}
+
+.buttonContainer {
+    font-size: 17px;
+    color: white;
+}
+
+.cardMainContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardContainer {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* margin-bottom: 50px; */
+}
+
+.findVacBtn {
+    cursor: pointer;
+    height: 40px;
+    color: white;
+    border-color: #f3f3f3;
+    font-size: 17px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.registerContainerParent {
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.registerContainer {
+    width: 100%;
+    height: 190px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.registerContainerTwo {
+    height: 190px;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 90px;
+    margin-bottom: 90px
+}
+
+.registerButton {
+    width: 170px;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.registerContainerChild {
+    padding-right: 50px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.registerContainerChild h3 {
+    margin: 0;
+    color: white;
+    font-size: 23px;
+}
+
+.registerContainerChildTwo {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.registerContainerChildTwo h3 {
+    margin: 0;
+    color: white;
+    font-size: 23px;
+}
+
+.imagesMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagesMainContainerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+.mainImages {
+    width: 50%;
+}
+
+.joinImage {
+    width: 10%;
+}
+
+.signUpMainContainer {
+    border-radius: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    /* border-radius: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(135, 118, 59, 0.9), rgb(135, 118, 59, 0.9)), url("../../assests/signUpBg.png") center/cover no-repeat;
+
+}
+
+.ClientMainContainer {
+    margin-top: 3%;
+    margin-bottom: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: white;
+}
+
+
+
+/* hero section css  */
+
+.hero-section {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    color: white;
+    padding: 20px 0px;
+    /* height: 100vh; */
+    position: relative;
+    padding-left: 26%;
+}
+
+.content {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.content h1 {
+    font-size: 1.5em;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.content p {
+    text-align: start;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff7f00;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e56e00;
+}
+
+.diamond-shape {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 20px solid #ff7f00;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    margin-left: 20px;
+    position: absolute;
+    left: -100px;
+}
+
+
+/* table css  */
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    /* border: 1px solid black; */
+    padding: 20px;
+    text-align: left;
+
+}
+
+
+.custom-table td:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1384px) {}
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1650px) {}
+
+@media (min-width: 1650px) {}
+
+
+@media (max-width: 992px) {
+    .signUpButton {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .startApplingHeaderText {
+        font-size: 2rem;
+    }
+
+    .inputMainContainerChild {
+        width: 90%;
+    }
+
+    .signUpMainContainer {
+        width: 80%;
+        height: 200px;
+    }
+
+    .signUpButton {
+        width: 30%;
+        height: 46px;
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .startApplingHeaderImageContainer {
+        display: none;
+    }
+
+    .startApplingHeaderTextContainer {
+        width: 90%;
+    }
+
+    .signUpButton {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .startApplingHeaderTextContainer {
+        padding: 10px;
+        margin-top: 130px;
+    }
+
+    .startApplingHeaderText {
+        font-size: 1.8rem;
+    }
+
+
+    .registerContainerChild {
+        padding-left: 30px;
+        padding-right: 45px;
+    }
+
+    .registerContainerChild h3 {
+        font-size: 16px;
+    }
+
+    .registerContainerChild p {
+        font-size: 13px;
+    }
+
+    .registerContainerChildTwo {
+        padding-left: 25px;
+    }
+
+    .registerContainerChildTwo h3 {
+        font-size: 16px;
+    }
+
+    .registerContainerChildTwo p {
+        font-size: 13px;
+    }
+
+    .registerContainerTwo {
+        width: 75%;
+        height: 160px;
+    }
+
+    .registerButton {
+        width: 130px;
+        color: white;
+        font-weight: 600;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        margin: 10px 0px;
+        font-size: 13px;
+    }
+
+    .registerContainer {
+        height: 170px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .startApplingHeaderText {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 670px) {
+    .startApplingHeaderText {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+    .startApplingHeaderTextContainer {
+        padding: 10px;
+        margin-top: 38%;
+    }
+
+    .registerContainerChild {
+        padding-right: 10px;
+    }
+}
